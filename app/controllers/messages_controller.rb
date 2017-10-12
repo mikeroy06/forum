@@ -45,4 +45,4 @@ class MessagesController < ApplicationController
 		def find_message
 			@message = Message.find(params[:id])
 		end
-end
+end 
